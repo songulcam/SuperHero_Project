@@ -57,7 +57,8 @@ Bu proje, temel bir bilgisayar oyunununa kahraman tasarlamak ve oyunun karakterl
     - `private flyingAbility;`
 - Metodlar:
     - `printInfo()` metodunu geçersiz kıl, üzerine yaz (`@Override)`: Bu metodu Superman'e özgü hale getirir.
-        SuperHeroes sınıfındaki printInfo() metodunu geçersiz kılarak (override) bu metodun Superman'e özgü hale gelmesini sağlayalım, böylece Superman hem Süper Kahraman olarak hem de kendi özelliği olarak davranabilir. Yani:
+        SuperHeroes sınıfındaki printInfo() metodunu geçersiz kılarak (override) bu metodun Superman'e özgü hale gelmesini sağlayalım, 
+    - böylece Superman hem Süper Kahraman olarak hem de kendi özelliği olarak davranabilir. Yani:
   
         ![04.png](resources/04.png)
   
