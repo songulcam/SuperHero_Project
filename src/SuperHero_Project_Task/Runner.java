@@ -18,7 +18,6 @@ public class Runner {
         HeroFactory kahramanlar=new HeroFactory();
         Scanner scanner=new Scanner(System.in);
 
-
         while (true){
             System.out.println("Süper Kahramanlar gösterisine hoş geldiniz...\n" +
                     "Mevcut Süper Kahramanlar: " + allHeroes + "\nÇıkmak için q'ya basın...");
