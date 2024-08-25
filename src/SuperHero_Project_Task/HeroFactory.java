@@ -1,7 +1,7 @@
+package SuperHero_Project_Task;
 
 public class HeroFactory {
 
-     // TODO BU CLASS'TA BİR DEĞİŞİKLİK YAPMANIZA GEREK YOK
     public SuperHeroes produceSuperHero(String superHero) {
 
         if (superHero.equalsIgnoreCase("Superman")) {

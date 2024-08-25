@@ -1,7 +1,6 @@
+package SuperHero_Project_Task;
 
 public class SuperHeroes {
-
-    // TODO: BU CLASSTA BİR DEĞİŞİKLİK YAPMANIZA GEREK YOK
     private String name;
     private String gender;
     private String aggression;
@@ -9,11 +8,11 @@ public class SuperHeroes {
     private String beauty;
 
     public SuperHeroes(String name, String gender, String aggression, String wisdom, String beauty) {
-        this.aggression = aggression;
-        this.gender = gender;
-        this.wisdom = wisdom;
-        this.beauty = beauty;
-        this.name = name;
+        setName(name);
+        setAggression(aggression);
+        setBeauty(beauty);
+        setGender(gender);
+        setWisdom(wisdom);
     }
 
     public void setName(String name) {
